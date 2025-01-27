@@ -82,7 +82,7 @@ background-color: rgb(107, 112, 112);
         
       );
       background-size: 400%;
-      -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: colorCycle 4s infinite linear;
 }

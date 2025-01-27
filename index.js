@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client"
 import img from '/logo.png';
 import "./index.css"
 import Middle from "./middle";
-
+import Api from "./api";
 
 const Nav=()=>{
     return (
@@ -19,6 +19,7 @@ const Nav=()=>{
         </ul>
       </h1>
       <Middle/>
+      <Api/>
       </>
     )
 }
