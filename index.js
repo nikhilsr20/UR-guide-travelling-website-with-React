@@ -19,7 +19,7 @@ const Nav=()=>{
         </ul>
       </h1>
       <Middle/>
-      <Api/>
+     <Api/>
       </>
     )
 }
