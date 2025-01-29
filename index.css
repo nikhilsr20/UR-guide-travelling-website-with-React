@@ -94,3 +94,23 @@ background-color: rgb(107, 112, 112);
       background-position: 100% 50%;
     }
   }
+
+  .search{
+    position: absolute;
+    top: 160px;
+  }
+  .bar{
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+  }
+  .btn{
+    position: absolute;
+    left: 620px;
+     width: 100px;
+     height: 50px;
+     border-radius: 200px;
+    
+  }

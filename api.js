@@ -28,18 +28,18 @@ const Api = () => {
   };
 
   return (
-    <div className="p-4 max-w-xl mx-auto text-center">
-      <h2 className="text-2xl font-bold mb-4">Wikipedia Search</h2>
+    <div className="search">
+      
       <input
         type="text"
-        className="border p-2 w-full rounded"
+        className="bar"
         placeholder="Enter a topic..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
       <button
         onClick={fetchWikipedia}
-        className="mt-3 px-4 py-2 bg-blue-600 text-white rounded"
+        className="btn"
       >
         Search
       </button>
