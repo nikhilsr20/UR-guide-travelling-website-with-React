@@ -114,3 +114,39 @@ background-color: rgb(107, 112, 112);
      border-radius: 200px;
     
   }
+  .card{
+    
+    width: 600px;
+    height: 400px;
+    /* margin-top: 200px; */
+    scrollbar-width: none;
+  
+   display: flex;
+  }
+  .cards{
+    position: absolute;
+    width: 600px;
+    height: 360px;
+    
+  
+  }
+  .details{
+   position: relative;
+   font-size:small;
+   
+   flex-wrap: wrap; 
+   color: rgb(16, 20, 23);
+   
+ 
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+    
+  }
+ 
+
+  .mainbox{
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
