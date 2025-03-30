@@ -57,7 +57,8 @@ const Api = () => {
       {data.map((item, index) => (
         <div key={index} className="card">
           <img className="cards" src={item.image} alt={item.name} />
-          <h1 className="details"> {item.name} {item.detail}</h1>
+          <span  className="details">{item.name}</span>
+          {/* <h1 className="details">{item.name}  {item.detail}</h1> */}
         </div>
       ))}
     </div>

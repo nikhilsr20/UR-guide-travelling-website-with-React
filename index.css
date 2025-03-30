@@ -130,17 +130,29 @@ background-color: rgb(107, 112, 112);
     
   
   }
+  .cards:hover {
+    transition: transform 1s ease-in-out;
+    transform: scale(1.05);
+    cursor:pointer;
+}
   .details{
    position: relative;
-   font-size:small;
+   font-size:xx-large;
+   padding: 10px;
+   width: fit-content;
+   height: fit-content;
    
    flex-wrap: wrap; 
-   color: rgb(16, 20, 23);
+   color: rgb(252, 254, 255);
+   background-color: #383737;
+   object-fit: cover;
+
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
- 
   transition: opacity 0.3s ease, visibility 0.3s ease;
     
   }
+  
  
 
   .mainbox{
